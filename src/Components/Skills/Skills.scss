@@ -1,0 +1,44 @@
+.skills-container {
+    padding: 10px 80px;
+
+    .skills-content {
+        .myskills-title {
+            font-size: 42px;
+        }
+
+        .skills-list {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1%;
+
+            .list-item {
+                width: 24%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7px;
+                height: 180px;
+                border: 2px solid black;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                gap: 20px;
+
+
+                .skill-img {
+                    width: 32px;
+                    height: 30px;
+
+
+                }
+
+                .label {
+                    color: black;
+                }
+            }
+        }
+    }
+}

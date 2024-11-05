@@ -1,0 +1,33 @@
+.footer-container {
+
+    background-color: black;
+    color: white;
+
+
+    .footer-content {
+        padding: 30px 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .batrick-logo .logo {
+            font-family: "Cedarville Cursive", cursive !important;
+            font-weight: 400;
+            font-size: 32px;
+            cursor: pointer;
+            user-select: none;
+
+        }
+
+
+        .footer-side-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+
+
+    }
+
+}

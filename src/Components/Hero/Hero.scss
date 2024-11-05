@@ -1,0 +1,57 @@
+.hero-container {
+    padding: 50px 80px;
+
+    .hero-content {
+        .hero-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .hero-title-content {
+                font-size: 42px;
+
+                .s-e .text-outline {
+                    font-family: "Londrina Outline", sans-serif !important;
+                    font-weight: 700;
+                }
+
+            }
+
+
+            .profile-desc {
+                p {
+                    font-size: 18px;
+                    color: #71717A;
+                }
+            }
+
+            .social-icons {
+                .s-i {
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 5px;
+                    background-color: black;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    svg {
+                        font-size: 18px;
+                        color: white;
+                    }
+
+
+                }
+            }
+        }
+
+        .hero-img {
+
+            .hero {
+                width: 100%;
+
+            }
+        }
+    }
+}

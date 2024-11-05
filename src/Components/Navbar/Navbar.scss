@@ -1,0 +1,49 @@
+.navbar-container {
+    padding: 10px 80px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    .navbar-content {
+        .batrick-logo .logo {
+            font-family: "Cedarville Cursive", cursive !important;
+            font-weight: 400;
+            font-size: 32px;
+            cursor: pointer;
+            user-select: none;
+
+        }
+
+        .menu-items {
+            .item-list {
+                font-weight: 500;
+                font-size: 18px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #71717A;
+                }
+            }
+
+        }
+
+        .resume {
+            height: 45px;
+            width: 110px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #71717A;
+                color: black;
+                transition: 0.3s ease-in;
+            }
+
+        }
+    }
+}
