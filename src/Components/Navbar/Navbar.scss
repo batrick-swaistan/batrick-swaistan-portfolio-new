@@ -22,6 +22,8 @@
 
                 &:hover {
                     color: #71717A;
+                    border-bottom: 2px solid black;
+                    transition: 0.1s step-end;
                 }
             }
 
@@ -45,5 +47,10 @@
             }
 
         }
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
     }
 }

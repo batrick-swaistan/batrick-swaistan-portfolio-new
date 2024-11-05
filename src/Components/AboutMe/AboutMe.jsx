@@ -4,7 +4,7 @@ import Bannerimg from "../../Assets/About/About.png"
 
 const AboutMe = () => {
     return (
-        <div className='aboutme-container'>
+        <div className='aboutme-container' id='aboutme'>
             <div className='aboutme-content'>
 
                 <div className='banner-img '>

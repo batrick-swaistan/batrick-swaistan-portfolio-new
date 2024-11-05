@@ -36,9 +36,17 @@
                     justify-content: center;
                     align-items: center;
 
+                    &:hover {
+
+                        background-color: #71717A;
+                        transition: 0.1s ease-in-out;
+                    }
+
                     svg {
                         font-size: 18px;
                         color: white;
+
+
                     }
 
 
@@ -53,5 +61,11 @@
 
             }
         }
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
     }
 }

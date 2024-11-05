@@ -7,7 +7,7 @@ import { faGithub, faLinkedinIn, faThreads, faXTwitter } from '@fortawesome/free
 
 const Hero = () => {
     return (
-        <div className='hero-container'>
+        <div className='hero-container' id='hero'>
             <div className='hero-content flex align-items-center gap-4'>
                 <div className='hero-text flex-1'>
 
@@ -34,17 +34,30 @@ const Hero = () => {
 
                     <div className='social-icons flex align-items-row gap-2'>
 
-                        <span className='s-i'>
-                            <FontAwesomeIcon icon={faLinkedinIn} />
+                        <span className='s-i cursor-pointer'>
+
+                            <a href='https://www.linkedin.com/in/batrick-swaistan' target='_blank'>
+                                <FontAwesomeIcon icon={faLinkedinIn} />
+                            </a>
                         </span>
-                        <span className='s-i'>
-                            <FontAwesomeIcon icon={faGithub} />
+                        <span className='s-i cursor-pointer'>
+
+                            <a href='https://www.github.com/batrick-swaistan' target='_blank'>
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
                         </span>
-                        <span className='s-i'>
-                            <FontAwesomeIcon icon={faXTwitter} />
+                        <span className='s-i cursor-pointer'>
+
+                            <a href='https://www.github.com/batrick-swaistan' target='_blank'>
+                                <FontAwesomeIcon icon={faXTwitter} />
+                            </a>
                         </span>
-                        <span className='s-i'>
-                            <FontAwesomeIcon icon={faThreads} />
+                        <span className='s-i cursor-pointer'>
+                            <a href='https://www.threads.net/@batrick_s' target='_blank'>
+                                <FontAwesomeIcon icon={faThreads} />
+
+                            </a>
+
                         </span>
 
                     </div>

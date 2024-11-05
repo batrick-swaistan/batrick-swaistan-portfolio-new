@@ -5,7 +5,7 @@ import { faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <div className='footer-container'>
+        <div className='footer-container' id='footer'>
             <div className='footer-content'>
 
                 <div className='batrick-logo'>

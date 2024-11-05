@@ -24,7 +24,7 @@ const Experience = () => {
         }
     ]
     return (
-        <div className='experience-container'>
+        <div className='experience-container' id='experience'>
             <div className='expereince-content'>
 
                 <div className='experience-title text-center'>

@@ -9,7 +9,7 @@ import { faShare } from '@fortawesome/free-solid-svg-icons';
 const Projects = () => {
 
     return (
-        <div className='project-container'>
+        <div className='project-container' id='projects'>
             <div className='project-container'>
 
                 <div className='project-title text-center'>
@@ -34,7 +34,10 @@ const Projects = () => {
                             </div>
 
                             <span className='share-icon cursor-pointer'>
-                                <FontAwesomeIcon icon={faShare} />
+                                <a href='https://github.com/batrick-swaistan/lumina-ui' target='_blank'>
+                                    <FontAwesomeIcon icon={faShare} />
+
+                                </a>
                             </span>
                         </div>
 
@@ -73,9 +76,10 @@ const Projects = () => {
                             <div className='franky-description'>
                                 <p>Franky is an engaging crash course crafted to teach the fundamentals of UX design through hands-on, practical projects in Figma. Tailored for beginners, Franky covers everything from design basics to advanced techniques, empowering learners to create visually appealing, user-centered designs. With step-by-step modules, practical examples, and real-world projects, Franky is designed to make UX design accessible, interactive, and immediately applicable.</p>
                             </div>
-                            <span className='share-icon cursor-pointer'>
+                            <a href='https://www.figma.com/proto/qsI0OuOaFOV8MGrFgqubxC/Crash-Course?node-id=1-271&node-type=canvas&t=n91N2i0D3oj4a9en-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank'>
                                 <FontAwesomeIcon icon={faShare} />
-                            </span>
+
+                            </a>
                         </div>
 
                     </div>

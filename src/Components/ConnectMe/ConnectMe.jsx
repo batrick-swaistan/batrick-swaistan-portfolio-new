@@ -3,7 +3,7 @@ import "./ConnectMe.scss";
 
 const ConnectMe = () => {
     return (
-        <div className='connectme-conatiner'>
+        <div className='connectme-conatiner' id='connectme'>
             <div className='connectme-content'>
                 <div className='header font-bold'>
                     Let's <span className='outline-text'>talk</span> for
