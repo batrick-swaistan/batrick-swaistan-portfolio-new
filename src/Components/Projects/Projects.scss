@@ -28,7 +28,6 @@
             }
 
             .lumina-content {
-
                 .s-no {
                     font-size: 36px;
                 }
@@ -41,7 +40,6 @@
 
                     font-size: 16px;
                     color: #71717A;
-
                 }
 
             }
@@ -65,7 +63,6 @@
             }
 
             .booknook-content {
-
                 .s-no {
                     font-size: 36px;
                 }
@@ -81,9 +78,7 @@
                     color: #71717A;
 
                 }
-
             }
-
         }
 
         .franky {
@@ -119,7 +114,6 @@
                     color: #71717A;
 
                 }
-
             }
         }
     }
@@ -130,4 +124,81 @@
 
     }
 
+}
+
+@media screen and (max-width:768px) {
+
+    .project-container {
+        .project-container {
+            padding: 20px 30px;
+
+            .project-title {
+                font-size: 32px;
+
+            }
+
+            .lumina {
+                flex-direction: column !important;
+                gap: 20px;
+
+                .lumina-img {
+                    height: 285px;
+                    width: 100% !important;
+                }
+
+                .lumina-content {
+                    width: 100% !important;
+
+                    .s-no {
+                        font-size: 28px;
+                    }
+                }
+            }
+
+            .booknook {
+                flex-direction: column-reverse !important;
+                gap: 20px;
+
+                .booknook-img {
+                    height: 285px;
+                    width: 100% !important;
+                }
+
+                .booknook-content {
+                    width: 100% !important;
+
+                    .s-no {
+                        font-size: 28px;
+                    }
+                }
+            }
+
+            .franky {
+                flex-direction: column !important;
+                gap: 20px;
+
+                .franky-img {
+                    height: 285px;
+                    width: 100% !important;
+                }
+
+                .franky-content {
+                    width: 100% !important;
+
+                    .s-no {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:375px) {
+    .project-container {
+        .project-container {
+            padding: 20px 20px;
+        }
+    }
 }

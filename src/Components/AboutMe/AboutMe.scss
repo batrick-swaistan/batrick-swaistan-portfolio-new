@@ -28,3 +28,35 @@
         }
     }
 }
+
+
+@media screen and (max-width:768px) {
+
+    .aboutme-container {
+        padding: 20px 30px;
+
+        .aboutme-content {
+            flex-direction: column !important;
+            gap: 20px;
+
+            .banner-img {
+                width: 300px;
+                height: auto;
+            }
+
+            .aboutme-text {
+                .aboutme-title {
+                    font-size: 32px;
+                }
+
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .aboutme-container {
+        padding: 20px 20px;
+    }
+}

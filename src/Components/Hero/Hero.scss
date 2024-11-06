@@ -69,3 +69,46 @@
 
     }
 }
+
+
+@media screen and (max-width:768px) {
+
+    .hero-container {
+        padding: 20px 30px;
+    
+        .hero-content {
+            flex-direction: column-reverse !important;
+            .hero-text {
+    
+                .hero-title-content {
+                    font-size: 32px;
+    
+                }
+    
+    
+                .profile-desc {
+                    p {
+                        font-size: 16px;
+                        color: #71717A;
+                    }
+                }
+            }
+    
+            .hero-img {
+                flex: none !important;
+                width: 310px;
+    
+                .hero {
+                    width: 100%;
+    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .hero-container {
+        padding: 20px 20px;
+    }
+}

@@ -42,3 +42,47 @@
         }
     }
 }
+
+
+@media screen and (max-width:425px) {
+
+    .skills-container {
+        padding: 10px 30px;
+
+        .skills-content {
+            .myskills-title {
+                font-size: 36px;
+            }
+
+            .skills-list {
+                gap: 1%;
+
+                .list-item {
+                    width: 48%;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .skills-container {
+        padding: 10px 20px;
+
+        .skills-content {
+            .myskills-title {
+                font-size: 36px;
+            }
+
+            .skills-list {
+
+                .list-item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

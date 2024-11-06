@@ -1,8 +1,6 @@
 .footer-container {
-
     background-color: black;
     color: white;
-
 
     .footer-content {
         padding: 30px 80px;
@@ -16,18 +14,32 @@
             font-size: 32px;
             cursor: pointer;
             user-select: none;
-
         }
-
 
         .footer-side-content {
             display: flex;
             align-items: center;
             gap: 10px;
         }
-
-
-
     }
 
+}
+
+@media screen and (max-width:425px) {
+    .footer-container {
+        .footer-content {
+            padding: 20px 30px;
+            flex-direction: column;
+            .batrick-logo .logo {
+                font-size: 28px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:375px) {
+    .footer-container {
+        padding: 20px 20px;
+    }
 }
