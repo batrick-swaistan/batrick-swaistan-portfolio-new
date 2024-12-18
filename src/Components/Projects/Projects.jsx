@@ -34,7 +34,7 @@ const Projects = () => {
                             </div>
 
                             <span className='share-icon cursor-pointer'>
-                                <a href='https://github.com/batrick-swaistan/lumina-ui' target='_blank'>
+                                <a href='https://lumina-ui.onrender.com/' target='_blank'>
                                     <FontAwesomeIcon icon={faShare} />
 
                                 </a>
