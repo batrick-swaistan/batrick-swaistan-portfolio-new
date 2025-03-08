@@ -16,7 +16,7 @@ const Hero = () => {
                             Hello I'am <span className='font-bold'>Batrick Swaistan.</span>
                         </div>
                         <div className='s-e'>
-                            Software <span className='text-outline'>Engineer</span>
+                            Full Stack <span className='text-outline'>Developer</span>
                         </div>
                         <div className='location'>
                             Living In <span className='font-bold'>Kanyakumari</span>
